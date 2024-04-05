@@ -1,0 +1,37 @@
+
+.about-container {
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    width: 80%;
+    height: auto;
+    margin-top: 60px;
+}
+
+.about-container>h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(24px, 4vw, 30px);
+    font-weight: 600;
+    padding: 10px;
+}
+
+.about-container>span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 1.5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 35px;
+}
+
+.about-container>p {
+    color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    text-align: center;
+    font-size: clamp(16px, 4vw, 20.5px);
+    margin-bottom: 5px;
+}

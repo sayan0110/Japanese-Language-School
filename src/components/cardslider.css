@@ -1,22 +1,23 @@
 .slider-container {
-    width: calc(100%);
+    position: relative;
+    width: 70%;
     height: auto;
     margin: 0 auto;
     background-color: transparent;
-    position: initial;
 }
 
 .slider-card {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .slider-card img {
     margin: 0 auto;
     width: 100%;
-    max-width: 90%;
-    height: 90vh;
+    max-width: 99%;
+    height: auto;
     border-radius: 10px;
     object-fit: cover;
     filter: brightness(60%);
