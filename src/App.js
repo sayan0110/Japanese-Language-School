@@ -8,15 +8,15 @@ import Review from "./components/Reviews/Review";
 import Popup from "./components/Popup/Popup";
 
 export default function App() {
-    return (
-        <>
+  return (
+    <>
       <Popup />
-            <NavMenu />
-            <Banner />
-            <AboutUs />
-            <CardSlider />
-            <WhyChooseUs />
-            <Review />
-        </>
-    );
+      <NavMenu />
+      <Banner />
+      <AboutUs />
+      <CardSlider />
+      <WhyChooseUs />
+      <Review />
+    </>
+  );
 }
